@@ -12,24 +12,22 @@ Admin Panel: Manage products, orders, and users from a powerful admin interface.
 Responsive Design: Mobile-friendly layout and design.
 
 ##Installation
-1. Clone the Repository:
+1. Clone the Repository:-
  git clone https://github.com/your-username/e-commerce-store.git
-2. Navigate to the Project Directory:
+2. Navigate to the Project Directory:-
  cd e-commerce-store
-3. Set Up a Virtual Environment
+3. Set Up a Virtual Environment:-
   python -m venv env
-4. Activate the Virtual Environment
+4. Activate the Virtual Environment:-
 On Windows:env\Scripts\activate
 On macOS/Linux:source env/bin/activate
-5. Install backend dependencies:
+5. Install backend dependencies:-
   pip install -r requirements.txt
-6. Apply database migrations:
-  bash
-Copy code
-python manage.py migrate
-7.Run the development server:
+6. Apply database migrations:-
+ python manage.py migrate
+7.Run the development server:-
   python manage.py runserver
-8. Open your browser and navigate to:
+8. Open your browser and navigate to:-
     http://localhost:8000
 
 ##Usage:
