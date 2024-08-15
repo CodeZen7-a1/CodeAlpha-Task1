@@ -24,7 +24,9 @@ On macOS/Linux:source env/bin/activate
 5. Install backend dependencies:
   pip install -r requirements.txt
 6. Apply database migrations:
-  python manage.py migrate
+  bash
+Copy code
+python manage.py migrate
 7.Run the development server:
   python manage.py runserver
 8. Open your browser and navigate to:
